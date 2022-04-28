@@ -17,5 +17,5 @@ module "VNets" {
   vnet_name = var.VNet-name
   resourcegroup_name = module.ResourceGroup.rg_name_out
   location = var.VNet-location
-  bastionhost_name = "testing-bastion"
+  bastionhost_name = var.bastion-name
 }
