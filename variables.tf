@@ -24,6 +24,6 @@ variable "VNet-location" {
   type = string
 }
 
-variable "bastion" {
-  type = bool
+variable "bastion-name" {
+  type = string
 }
